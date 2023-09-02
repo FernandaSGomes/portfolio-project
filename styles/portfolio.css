@@ -32,6 +32,10 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.gomes-logo {
+  width: 200px;
+  margin: auto;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fernanda Gomes - Portfolio</title>
+    <meta
+      name="description"
+      content="Fernanda is a front-end engineer based in United Kingdom."
+    />
+    <title>Front-end developer - Fernanda Gomes</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -22,36 +26,42 @@
     ></script>
   </head>
   <body>
-      <div class="container">
-       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/shecodes-logo.png" class="logo d-none d-md-block" alt="" />
-         <img src="images/small-logo.jpeg" class="logo d-block d-md-none" alt="" />
-         </a> 
-         <ul>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/shecodes-logo.png"
+            class="logo d-none d-md-block"
+            alt="Shecodes logo"
+          />
+          <img
+            src="images/small-logo.jpeg"
+            class="logo d-block d-md-none"
+            alt="small Shecodes logo"
+          />
+        </a>
+        <ul>
           <li class="active">
-            <a href="/">Home</a> 
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Fernanda"> About</a>
           </li>
-          <li>  <a href="/work.html"> Work</a>
-          </li>
-          <li>  <a href="/contact.html"> Contact</a>
-          </li>
+          <li><a href="/work.html" title="Fernanda's work"> Work</a></li>
+          <li><a href="/contact.html" title="Contact Fernanda"> Contact</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="hero mt-1 p-5">
       <img
         src="images/gomes-logo.png"
         class="gomes-logo d-none d-lg-block img-fluid rounded mb-2"
-        alt=""
+        alt="Fernanda's logo"
       />
-      <p>Hello, I am</p>
+      <p>👋 Hello, I am</p>
       <h1>Fernanda Gomes</h1>
       <h2 class="mb-5">Front-end developer based in United Kingdom</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div><a href="/contact.html" class="btn btn-branding">Contact me</a></div>
     </div>
     <p class="text-center m-5">
       Featured Project which my best projects be choice to show
@@ -62,7 +72,7 @@
           <img
             src="images/travel-project.png"
             class="img-fluid rounded shadow"
-            alt=""
+            alt="Travel project preview"
           />
         </div>
         <div class="col">
@@ -74,7 +84,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
@@ -88,14 +100,16 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/time-zone-app.png"
             class="img-fluid rounded shadow"
-            alt=""
+            alt="Time Zone app preview"
           />
         </div>
       </div>
@@ -104,7 +118,7 @@
           <img
             src="images/learn-guitar-project.png"
             class="img-fluid rounded shadow"
-            alt=""
+            alt="Learn guitar project preview"
           />
         </div>
         <div class="col">
@@ -116,31 +130,70 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-          <h4>Work Inquiry</h4>
-          <p class="text-muted">Let's work together</p>
-            </div> 
-            <div>
-          <a href="" class="btn btn-branding mt-3"> Contact me </a>
-       </div> 
-      </div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Fernanda"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
         <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:nandasthefany@hotmail.com" class="email-link"> nandasthefany@hotmail.com</a>
-       </div>
-       <div class="social-links d-flex justify-content-center">
-<a href="https://www.instagram.com/FernandaSGomes">
-        <i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/FernandaSGomes">
-        <i class="fab fa-github"></i></a>
-       <a href="https://facebook.com/FernandaSGomes"> <i class="fab fa-facebook"></i></a>
-      </div>
-    </footer>
+          <a
+            href="mailto:nandasthefany@hotmail.com"
+            class="email-link"
+            title="Email Fernanda"
+          >
+            nandasthefany@hotmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/shecodesFGomes"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/FernandaSGomes"
+            target="_blank"
+            title="GitHub profile"
+          >
+            <i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://facebook.com/FernandaSGomes"
+            target="_blank"
+            title="Facebook profile"
+          >
+            <i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded Shecodes, and it is
+          <a
+            href="https://github.com/FernandaSGomes/portfolio-project"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

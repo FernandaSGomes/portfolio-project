@@ -2,7 +2,7 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Updock', cursive; */
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #eb2632;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -47,6 +47,7 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  font-weight: bold;
 }
 nav a {
   text-decoration: none;
